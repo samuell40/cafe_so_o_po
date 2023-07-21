@@ -12,11 +12,11 @@ body {
 
 .logo {
   position: absolute;
-  top: 37%;
+  top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 600px; 
-  height: 400px 
+  width: 40%; 
+  height: 60%; 
 }
 
 .rectangle {
@@ -30,7 +30,7 @@ body {
 .recarregue-se-btn {
   position: relative;
   z-index: 1; 
-  margin-top: 450px;
+  margin-top: 150%;
   padding: 10px 20px;
   font-size: 50px;
   background-color: transparent;
