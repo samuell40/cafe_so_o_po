@@ -12,21 +12,12 @@ body {
 
 .logo {
   position: absolute;
-  top: 35%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 40%; 
-  height: 60%; 
+  width: 35%;
 }
 
-.rectangle {
-  position: absolute;
-  bottom: 0;
-  left: 0; 
-  width: 25%;
-  height: 100%;
-  background-color: #614221;
-}
 .recarregue-se-btn {
   position: relative;
   z-index: 1; 
@@ -34,9 +25,9 @@ body {
   padding: 10px 20px;
   font-size: 50px;
   background-color: transparent;
-  color: #fff;
-  border: 3px solid #fff;
-  border-radius: 20px;
+  color: #ffffff;
+  border: 3px solid #ffffff;
+  border-radius: 100px;
   cursor: pointer;
   font-family: 'Bebas Neue', sans-serif;
   border-width: 5px;
