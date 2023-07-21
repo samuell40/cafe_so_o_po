@@ -9,11 +9,41 @@
     <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
-   <div class="container">
-  </div>
-  <div class="background">
-    <img src="https://cdn.glitch.global/163b7ba5-694e-4134-9adf-72bf688bfc6e/logo.png?v=1689906326841" alt="logo cafeteria" class="logo">
-    <button class="recarregue-se-btn">RECARREGUE-SE!</button>
-  </div>
+    <div class="menu-toggle">
+        <div class="hamburger">
+            <span></span>
+        </div>
+    </div>
+
+    <aside class="sidebar">
+        <img src="https://cdn.glitch.global/163b7ba5-694e-4134-9adf-72bf688bfc6e/logo.png?v=1689906326841">
+            
+        <nav class="menu">
+            <hr>
+            <a href="#" class="menu-item is-active">Página Inicial</a>
+            <hr>
+            <a href="#" class="menu-item">Catálogo de Produtos</a>
+            <hr>
+            <a href="#" class="menu-item">Sobre Nós</a>
+            <hr>
+        </nav>
+    </aside>
+  
+    <main>
+      <div class="background">
+        <img src="https://cdn.glitch.global/163b7ba5-694e-4134-9adf-72bf688bfc6e/logo.png?v=1689906326841" alt="logo cafeteria" class="logo">
+        <button class="recarregue-se-btn">RECARREGUE-SE!</button>
+      </div>
+    </main>
+
+    <script>
+        const menu_toggle = document.querySelector('.menu-toggle');
+        const sidebar = document.querySelector('.sidebar');
+
+        menu_toggle.addEventListener('click', () => {
+            menu_toggle.classList.toggle('is-active')
+            sidebar.classList.toggle('is-active')
+        })
+    </script>
   </body>
 </html>
