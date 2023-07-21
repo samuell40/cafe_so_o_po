@@ -12,8 +12,8 @@ body {
 
 .logo {
   position: absolute;
-  top: 35%; /* Centraliza verticalmente a logo */
-  left: 50%; /* Centraliza horizontalmente a logo */
+  top: 35%;
+  left: 50%;
   transform: translate(-50%, -50%);
   width: 600px; 
   height: 500px 
