@@ -1,7 +1,13 @@
 body {
   background-image: url("https://cdn.glitch.global/163b7ba5-694e-4134-9adf-72bf688bfc6e/coffee-2560260_1920.jpg?v=1690033644203");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover;}
+header {
+  color: white;
+  background-color: #663300;
+  margin-left: 30vw;
+  margin-right: 30vw;
+  border-radius: 10vw;
 }
 section {
   margin: 50px 0;
@@ -10,12 +16,6 @@ section {
 h1 {
   text-transform: uppercase;
   text-align: center;
-  color: white;
-  background-color: #663300;
-  margin-left: 30vw;
-  margin-right: 30vw;
-  border-radius: 10vw;
-  
 }
 h2 {
   color: white;
@@ -32,9 +32,9 @@ h2 {
 }
 ul {
   list-style: none;
-  margin: 0;
+  margin: auto; 
   padding: 0;
-  width: 40vw;
+  width: 60vw;
 }
 
 */ li {
@@ -66,7 +66,7 @@ li:last-child {
 }
 
 .product-price {
-  color: #666666;
+  color: #663300;
   font-size: 16px;
   margin: 0;
   padding-left: 20px;
