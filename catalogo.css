@@ -1,0 +1,114 @@
+.pg_produtos {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 98vh;
+  background-image: url("https://cdn.glitch.global/163b7ba5-694e-4134-9adf-72bf688bfc6e/coffee-4334647_1920.jpg?v=1690031070109");
+  background-size: auto 120%;
+  background-position: 100% center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section {
+  margin: 50px 0;
+  padding: 0 20px;
+}
+h2 {
+  color: #663300;
+  font-size: 24px;
+  font-weight: normal;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* Define o estilo da lista de produtos */
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+*/ li {
+  padding: 15px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+.product {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  margin-top: 4px;
+}
+
+.product-name {
+  flex: 1;
+  color: #663300;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.product-price {
+  color: #666666;
+  font-size: 16px;
+  margin: 0;
+  padding-left: 20px;
+}
+
+footer {
+  background-color: #663300;
+  color: #ffffff;
+  padding: 6px;
+  text-align: center;
+  font-size: 14;
+  margin-top: 40px;
+}
+
+footer p {
+  margin: 0;
+  padding: 40px;
+  color: #ffffff;
+}
+h1 {
+  text-transform: uppercase;
+}
+
+.navbar {
+  background-color: #663300;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  border-radius: 10px;
+  background-size: 100% 120%;
+  background-position: 0 100%;
+}
+
+.navbar a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #dddddd;
+  color: black;
+}
