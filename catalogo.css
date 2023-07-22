@@ -7,14 +7,21 @@ section {
   margin: 50px 0;
   padding: 0 20px;
 }
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  background-color: beige;  
+}
 h2 {
-  color: #663300;
+  color: white;
   font-size: 24px;
   font-weight: normal;
   margin-top: 40px;
   margin-bottom: 20px;
   text-align: center;
   text-transform: uppercase;
+  background-color:
 }
 
 /* Define o estilo da lista de produtos */
@@ -39,10 +46,9 @@ li:last-child {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: #ffffff;
+  background-color: beige;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
   margin-top: 4px;
 }
 
@@ -59,23 +65,4 @@ li:last-child {
   font-size: 16px;
   margin: 0;
   padding-left: 20px;
-}
-
-footer {
-  background-color: #663300;
-  color: #ffffff;
-  padding: 6px;
-  text-align: center;
-  font-size: 14;
-  margin-top: 40px;
-}
-
-footer p {
-  margin: 0;
-  padding: 40px;
-  color: #ffffff;
-}
-h1 {
-  text-transform: uppercase;
-  text-align: center;
 }

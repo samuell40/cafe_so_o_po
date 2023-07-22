@@ -21,7 +21,7 @@ body {
 
 .recarregue-se-btn {
   position: relative;
-  z-index: 1; 
+  z-index: 1;
   margin-top: 150%;
   padding: 10px 20px;
   font-size: 50px;
@@ -61,6 +61,7 @@ body {
     width: 100%;
     transition: 0.2s linear;
     display: block;
+    z-index: 2;
 }
 
 .sidebar.is-active {
@@ -90,7 +91,6 @@ body {
     transition: 0.2s linear;
 }
 
-/*Acrescente o que acontece quando dão hover*/
 .sidebar .menu .menu-item:hover, .sidebar .menu .menu-item.is-active {
     font-weight: bold;
 }
@@ -103,21 +103,21 @@ body {
 .menu-toggle {
     display: block;
     position: fixed;
-    top: 20px;
+    top: -5px;
     left: -5px;
     width: 0px;
     height: 0px;
     cursor: pointer;
     border-radius: 99px;
-    z-index: 5;
+    z-index: 3;
 }
 
 .hamburger {
     position: relative;
     top: calc(50% - 2px);
-    left: 0;
     transform: translate(50%, 50%);
     width: 32px;
+    height: 32px;
 }
 
 .hamburger > span,
@@ -130,6 +130,7 @@ body {
     border-radius: 99px;
     background-color: #ffffff;
     transition: 0.25s;
+    top: 14px;
 }
 
 .hamburger > span::before {
