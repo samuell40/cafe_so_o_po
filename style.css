@@ -157,8 +157,8 @@ body {
     transform: rotate(90deg);
 }
 /*CSS do catálogo*/
-body catalogo {
-    margin: 0;
+.pg_produtos {
+  margin: 0;
   padding: 0;
   display: flex;
   justify-content: center;
@@ -167,5 +167,4 @@ body catalogo {
   background-image: url('https://cdn.glitch.global/163b7ba5-694e-4134-9adf-72bf688bfc6e/coffee-4334647_1920.jpg?v=1690031070109');
   background-size: auto 120%;
   background-position: 100% center; 
-}
 }
