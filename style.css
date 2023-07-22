@@ -1,3 +1,4 @@
+/*CSS da pagina inicial*/
 body {
   margin: 0;
   padding: 0;
@@ -154,4 +155,17 @@ body {
 .menu-toggle.is-active .hamburger > span::after {
     top: 0;
     transform: rotate(90deg);
+}
+/*CSS do catálogo*/
+body catalogo {
+    margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  height: 98vh; 
+  background-image: url('https://cdn.glitch.global/163b7ba5-694e-4134-9adf-72bf688bfc6e/coffee-4334647_1920.jpg?v=1690031070109');
+  background-size: auto 120%;
+  background-position: 100% center; 
+}
 }
