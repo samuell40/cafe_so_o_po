@@ -68,10 +68,7 @@
       height: 30px;
       position: absolute;
       left: 10px;
-    }
-
-    .navbar img {
-      
+      cursor: pointer;
     }
 
     .navbar a {
