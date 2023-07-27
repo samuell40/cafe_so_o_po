@@ -4,13 +4,13 @@ body {
   padding: 0;
   display: flex;
   height: 98vh; 
+  justify-content: center;
   background-image: url('https://cdn.glitch.global/163b7ba5-694e-4134-9adf-72bf688bfc6e/cafeteria.png?v=1689906535088');
   background-size: auto 120%;
   background-position: 100% center; 
 }
 
 .logo {
-  justify-self: center;
   align-self: center; 
   position: absolute;
   top: 40%;
@@ -22,7 +22,7 @@ body {
 .recarregue-se-btn {
   position: relative;
   z-index: 1;
-  top: 50px;
+  top: 80vh;
   padding: 10px 20px;
   font-size: 50px;
   background-color: transparent;
