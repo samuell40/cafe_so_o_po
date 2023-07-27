@@ -3,8 +3,6 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: center;
-  align-items: center; 
   height: 98vh; 
   background-image: url('https://cdn.glitch.global/163b7ba5-694e-4134-9adf-72bf688bfc6e/cafeteria.png?v=1689906535088');
   background-size: auto 120%;
@@ -12,6 +10,8 @@ body {
 }
 
 .logo {
+  justify-self: center;
+  align-self: center; 
   position: absolute;
   top: 40%;
   left: 50%;
@@ -22,7 +22,7 @@ body {
 .recarregue-se-btn {
   position: relative;
   z-index: 1;
-  margin-top: 150%;
+  top: 50px;
   padding: 10px 20px;
   font-size: 50px;
   background-color: transparent;
@@ -35,7 +35,7 @@ body {
 }
 
 .recarregue-se-btn:hover {
-  background-color: #614221;
+  background-color: #663300;
 }
 
 
