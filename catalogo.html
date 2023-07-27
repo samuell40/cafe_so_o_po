@@ -19,9 +19,9 @@
             
         <nav class="menu">
             <hr>
-            <a href="#" class="menu-item is-active">Página Inicial</a>
+            <a href="index.html" class="menu-item">Página Inicial</a>
             <hr>
-            <a href="catalogo.html" class="menu-item">Catálogo de Produtos</a>
+            <a href="catalogo.html" class="menu-item is-active">Catálogo de Produtos</a>
             <hr>
             <a href="#" class="menu-item">Sobre Nós</a>
             <hr>
@@ -96,5 +96,16 @@
             </li>
         </ul>
     </section>
+
+    <script>
+        const menu_toggle = document.querySelector('.menu-toggle');
+        const hamburger = document.querySelector('.hamburger');
+        const sidebar = document.querySelector('.sidebar');
+
+        hamburger.addEventListener('click', () => {
+            menu_toggle.classList.toggle('is-active')
+            sidebar.classList.toggle('is-active')
+        })
+    </script>
 </body>
 </html>
